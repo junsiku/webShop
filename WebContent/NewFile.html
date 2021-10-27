@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+	var url = "http://apis.data.go.kr/B551182/pubReliefHospService/getpubReliefHospList?serviceKey=lycEChYp17HBUpubmIggfvsSVH4hNI7Hnx1%2FzJk0L5ux02t%2FxJcg6EWrWWagsx3Z45wyalba2x9XAMlfvNKmdg%3D%3D&numOfRows=145&spclAdmTyCd=A0&pageNo=1"
+    //var url = "https://api.bithumb.com/public/ticker/BTC";
+		$.ajax({
+    	url:url,
+    	success:function(responseData){
+    		console.log(responseData);
+    	}
+    });
+
+</script>
+</head>
+<body>
+
+</body>
+</html>
